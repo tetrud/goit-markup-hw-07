@@ -1,0 +1,27 @@
+.modal-btn {
+  min-width: 200px;
+  border-radius: 4px;
+  border: 0px;
+  padding: 10px 32px;
+
+  background-color: $accent-color;
+  color: $secondary-text-color;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+  transition: background-color 250ms $timing-function, outline 250ms $timing-function;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #188ce8;
+}
+
+.modal-btn-center {
+  align-self: center;
+}
